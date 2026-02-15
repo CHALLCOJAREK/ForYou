@@ -1,5 +1,6 @@
 📦 PulseForge
  ┣ 📜 app.js
+ ┣ 📜 estructura.txt
  ┣ 📜 gitpush.py
  ┣ 📜 index.html
  ┣ 📜 README.md
