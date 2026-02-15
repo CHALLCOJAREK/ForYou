@@ -6,9 +6,17 @@ function openSection(id){
   if(id === "diario"){
     const frases = [
       "Hoy tu única tarea es ser un poco más amable contigo misma que ayer.",
-      "No tienes que poder con todo, solo con lo que hoy te alcance.",
-      "Aunque el día sea ruidoso, siempre puedes crear un minuto de silencio para ti.",
-      "Estar cansada no te hace menos fuerte. Te hace humana."
+    "No tienes que poder con todo, solo con lo que hoy te alcance.",
+    "Aunque el día sea ruidoso, siempre puedes crear un minuto de silencio para ti.",
+    "Estar cansada no te hace menos fuerte. Te hace humana.",
+    "No todo avance se nota. A veces crecer es simplemente no rendirte.",
+    "Lo que hoy te pesa, mañana será parte de tu fortaleza.",
+    "No necesitas hacerlo perfecto, solo hacerlo con honestidad.",
+    "Permítete descansar sin sentir culpa.",
+    "Estás haciendo lo mejor que puedes con lo que tienes, y eso es suficiente.",
+    "A veces sanar también significa ir más despacio.",
+    "No te compares con nadie. Tu proceso tiene su propio ritmo.",
+    "Incluso en tus días más tranquilos, sigues avanzando."
     ];
     document.getElementById("diarioText").textContent =
       frases[Math.floor(Math.random()*frases.length)];
