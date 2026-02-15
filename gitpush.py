@@ -9,7 +9,7 @@ import shutil
 #   CONFIG
 # ======================================================
 RUTA_BACKUP = r"C:\BACKUPS_JAREK\Backup-ForYou"
-RUTA_ESTRUCTURA = r"C:\Proyectos\DataPulse\estructura.txt"
+RUTA_ESTRUCTURA = r"C:\Proyectos\Proyectos-Jarek\Pages\ForYou\estructura.txt"
 
 # Carpetas cuyos CONTENIDOS NO deben mostrarse
 CARPETAS_IGNORADAS = ["forge_env", "venv", ".venv", "env"]
